@@ -48,3 +48,91 @@ header img {
    text-decoration: none;
    color: var(--blue-brown);
 }
+
+main h1 {
+    margin: 5rem auto;
+    text-align: center;
+    font-size: 5rem;
+    color: var(--blue-brown);
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+}
+
+.collage {
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(6, 1fr);
+    height: 600px;
+    width: 724px;
+}
+
+.collage img {
+    width: 112px;
+    height: 450px;
+}
+
+.collage-image1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+}
+
+.collage-image2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 7;
+}
+
+.collage-image3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 6;
+}
+
+.collage-image4 {
+    grid-column: 4 / 5;
+    grid-row: 3 / 8;
+}
+
+.collage-image5 {
+    grid-column: 5 / 6;
+    grid-row: 1 / 6;
+}
+
+.collage-image6 {
+    grid-column: 6 / 7;
+    grid-row: 2 / 7;
+}
+
+
+.description {
+    width: 550px;
+    padding-left: 45px;
+    color: var(--blue-brown);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: start;
+}
+
+.collage-image1:hover {
+    grid-row: 2 / 7;
+}
+
+.collage-image2:hover {
+    grid-row: 1 / 6;
+}
+
+.collage-image3:hover {
+    grid-row: 2 / 7; 
+}
+
+.collage-image4:hover {
+    grid-row: 2 / 7;
+}
+
+.collage-image5:hover {
+    grid-row: 2 / 7;
+}
+
+.collage-image6:hover {
+    grid-row: 1 / 6;
+}
