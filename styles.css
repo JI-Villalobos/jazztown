@@ -1,0 +1,50 @@
+:root {
+    --brown: #480106;
+    --blue: #02689A;
+    --blue-brown: #2D2240;
+    --gradient: 270deg, #02689A 2.46%, #480106 100%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header--------------------------------------------------------*/
+.header-section {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    height: 83px;
+    width: auto;
+    box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.25);
+}
+
+.header-logo {
+    grid-column: 1 / 7;
+}
+
+header img {
+    width: 124px;
+    height: 65px;
+}
+
+.about {
+   font-size: 2.5rem;
+   font-weight: 700;
+   text-decoration: none;
+   color: var(--blue-brown);
+}
+
+.community {
+   font-size: 2.5rem;
+   font-weight: 700;
+   text-decoration: none;
+   color: var(--blue-brown);
+}
