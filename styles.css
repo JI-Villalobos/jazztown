@@ -22,7 +22,7 @@ html{
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     width: auto;
-    height: 33px;
+    height: 45px;
     box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.25);
 }
 
@@ -77,13 +77,13 @@ main h1 {
 .collage {
     display: grid;
     grid-template: repeat(8, 1fr) / repeat(6, 1fr);
-    height: 600px;
-    width: 724px;
+    height: 300px;
+    width: 362px;
 }
 
 .collage img {
-    width: 112px;
-    height: 450px;
+    width: 56px;
+    height: 225px;
 }
 
 .collage-image1 {
@@ -119,9 +119,10 @@ main h1 {
 
 .description {
     width: 550px;
-    padding-left: 45px;
+    padding-left: 25px;
+    padding-top: 20px;
     color: var(--blue-brown);
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: start;
 }
@@ -161,8 +162,8 @@ main h1 {
 .player-section iframe {
     border-radius: 25px;
     box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.25);   
-    width: 1120px;
-    height: 290px; 
+    width: 760px;
+    height: 200px; 
 }
 
 h2 {
