@@ -49,6 +49,7 @@ header img {
    color: var(--blue-brown);
 }
 
+/*Main ----------------------------------------------------------*/
 main h1 {
     margin: 5rem auto;
     text-align: center;
@@ -56,6 +57,8 @@ main h1 {
     color: var(--blue-brown);
 }
 
+
+/*---description---*/
 .main-section {
     display: flex;
     justify-content: center;
@@ -135,4 +138,84 @@ main h1 {
 
 .collage-image6:hover {
     grid-row: 1 / 6;
+}
+
+/*player-----*/
+.player-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;   
+    text-align: center;
+}
+
+.player-section iframe {
+    border-radius: 25px;
+    box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.25);   
+    width: 1120px;
+    height: 290px; 
+}
+
+h2 {
+    margin-top: 10rem;
+    color: var(--blue);
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.streaming_op-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    height: 224px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    column-gap: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.25);
+    width: 334px;
+    height: 224px;
+}
+
+.card1 {
+    grid-column: 1 / 2;
+}
+
+.card1 img {
+    width: 476px;
+    height: 200px;
+}
+
+.card2 {
+    grid-column: 2 / 3;
+}
+
+.card2 img {
+    width: 136px;
+    height: 136px;
+}
+
+.card3 {
+    grid-column: 3 / 4;
+}
+
+.card3 img {
+    width: 119px;
+    height: 166px;
+}
+
+.card4 {
+    grid-column: 4 / 5;
+}
+
+.card4 img {
+    height: 171px;
+    width: 179px;
 }
