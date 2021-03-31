@@ -169,7 +169,7 @@ main h1 {
 h2 {
     margin-top: 10rem;
     color: var(--blue);
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     text-align: center;
 }
@@ -191,8 +191,8 @@ h2 {
     justify-content: center;
     border-radius: 25px;
     box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.25);
-    width: 334px;
-    height: 224px;
+    width: 167px;
+    height: 112px;
 }
 
 .card1 {
@@ -200,8 +200,8 @@ h2 {
 }
 
 .card1 img {
-    width: 476px;
-    height: 200px;
+    width: 238px;
+    height: 100px;
 }
 
 .card2 {
@@ -209,8 +209,9 @@ h2 {
 }
 
 .card2 img {
-    width: 136px;
-    height: 136px;
+    width: 68px;
+    height: 68px;
+    align-self: center;
 }
 
 .card3 {
@@ -218,8 +219,9 @@ h2 {
 }
 
 .card3 img {
-    width: 119px;
-    height: 166px;
+    width: 60px;
+    height: 80px;
+    align-self: center;
 }
 
 .card4 {
@@ -227,6 +229,7 @@ h2 {
 }
 
 .card4 img {
-    height: 171px;
-    width: 179px;
+    height: 100px;
+    width: 90px;
+    align-self: center;
 }
