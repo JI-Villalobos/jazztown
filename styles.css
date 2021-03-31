@@ -16,6 +16,10 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #f6f6f6;
+}
+
 /*Header--------------------------------------------------------*/
 .header-section {
     display: grid;
@@ -155,7 +159,7 @@ main h1 {
 .player-section {
     display: flex;
     justify-content: center;
-    margin-top: 10rem;   
+    margin-top: 2rem;   
     text-align: center;
 }
 
@@ -170,6 +174,14 @@ h2 {
     margin-top: 10rem;
     color: var(--blue);
     font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 10rem;
+    color: var(--blue);
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
 }
