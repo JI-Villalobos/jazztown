@@ -190,7 +190,6 @@ h3 {
 .streaming_op-section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
     height: 224px;
     width: 80%;
     margin: auto;
