@@ -245,3 +245,98 @@ h3 {
     width: 90px;
     align-self: center;
 }
+
+
+/*Footer ------------------------------------------------*/
+footer {
+    height: 200px;
+    background: linear-gradient(var(--gradient));
+}
+
+.footer-elements {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    height: 170px;
+}
+
+/*form--*/
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.newsletter-form p {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.newsletter-form .email {
+    height: 35px;
+    width: 250px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.email::placeholder {
+    color: skyblue;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.newsletter-form .send {
+    height: 35px;
+    width: 250px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: white;
+    font-size: 2rem;
+    background-color: var(--blue);
+}
+
+/*social media--*/
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer p {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.logo-footer img {
+    height: 85px;
+    width: 164px;
+    align-self: center;
+}
+
+footer p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
